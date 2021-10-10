@@ -1,0 +1,7 @@
+.background {
+    font-family: Helvetica;
+    background-color: #343539;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}

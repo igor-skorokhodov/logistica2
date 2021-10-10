@@ -1,0 +1,14 @@
+.choose-text {
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  width: 119px;
+  height: 24px;
+  border: none;
+  background-color: #717174;
+  border-radius: 2px;
+  line-height: 23px;
+  margin: 0;
+  margin-right: 10px;
+}

@@ -1,0 +1,10 @@
+.header-number {
+  width: 24px;
+  height: 24px;
+  background-color: #ef483e;
+  border-radius: 100px;
+  margin: 0;
+  text-align: center;
+  margin-right: 8px;
+  line-height: 23px;
+}

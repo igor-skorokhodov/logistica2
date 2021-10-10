@@ -1,0 +1,11 @@
+.adress-button_active {
+  width: 16px;
+  height: 16px;
+  background-image: url('../../images/button.svg');
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  margin-right: 12px;
+}

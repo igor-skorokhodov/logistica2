@@ -1,0 +1,16 @@
+.block-form_list {
+  width: 172px;
+  margin-right: 12px;
+  margin-bottom: 16px;
+}
+
+.block-form_list:last-child {
+  margin-right: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+  .block-form_list {
+    width: 165px;
+  }
+}

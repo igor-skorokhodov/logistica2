@@ -1,0 +1,20 @@
+.adress-text {
+  font-size: 15px;
+  line-height: 19px;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+
+.adress-text::after {
+  content: "";
+  text-align: right;
+  position: absolute;
+  left: 60%;
+  top: 33%;
+  width: 50px;
+  height: 1.2em;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #4b4b4f 100%);
+  pointer-events: none;
+}

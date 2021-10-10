@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="stylesheet" href="./blocks/style.css" />
+    <title>Отправка груза</title>
+  </head>
+  <body class="background">
+    <div class="general-wrapper">
+    <h1 class="header">FTL: Прямая машина</h1>
+    <div class="wrapper">
+    <div class="page">
+      <div class="block">
+        <div class="blcok-header">
+          <p class="header-number">1</p>
+          <p class="header-text">Маршрут</p>
+        </div>
+        <div class="block-form">
+          <p class="input-name">Откуда</p>
+          <input class="input" />
+        </div>
+        <div class="block-form">
+          <p class="input-name">Куда</p>
+          <input class="input" />
+        </div>
+      </div>
+      <div class="block">
+        <div class="blcok-header">
+          <p class="header-number">2</p>
+          <p class="header-text">Транспорт</p>
+        </div>
+        <div class="block-container">
+          <div class="block-form block-form_list">
+            <p class="input-name">Грузоподъемность</p>
+            <form>
+              <div class="__select" data-state="">
+                <div class="__select__title" data-default="Option 0">Не выбрана</div>
+                <div class="__select__content">
+                  <input id="singleSelect0" class="__select__input" type="radio" name="singleSelect" checked />
+                  <label for="singleSelect0" class="__select__label">Option 0</label>
+                  <input id="singleSelect1" class="__select__input" type="radio" name="singleSelect" />
+                  <label for="singleSelect1" class="__select__label">Option 1</label>
+                  <input id="singleSelect2" class="__select__input" type="radio" name="singleSelect" disabled />
+                  <label for="singleSelect2" class="__select__label">Option 2 (disabled)</label>
+                  <input id="singleSelect3" class="__select__input" type="radio" name="singleSelect" />
+                  <label for="singleSelect3" class="__select__label">Option 3</label>
+                  <input id="singleSelect4" class="__select__input" type="radio" name="singleSelect" />
+                  <label for="singleSelect4" class="__select__label">Option 4</label>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="block-form block-form_list">
+            <p class="input-name">Способ погрузки</p>
+            <form>
+              <div class="__select1 __select" data-state="">
+                <div class="__select__title1 __select__title" data-default="Option 0">Задняя</div>
+                <div class="__select__content">
+                  <input id="singleSelect0" class="__select__input" type="radio" name="singleSelect" checked />
+                  <label for="singleSelect0" class="__select__label">Option 0</label>
+                  <input id="singleSelect1" class="__select__input" type="radio" name="singleSelect" />
+                  <label for="singleSelect1" class="__select__label">Option 1</label>
+                  <input id="singleSelect2" class="__select__input" type="radio" name="singleSelect" disabled />
+                  <label for="singleSelect2" class="__select__label">Option 2 (disabled)</label>
+                  <input id="singleSelect3" class="__select__input" type="radio" name="singleSelect" />
+                  <label for="singleSelect3" class="__select__label">Option 3</label>
+                  <input id="singleSelect4" class="__select__input" type="radio" name="singleSelect" />
+                  <label for="singleSelect4" class="__select__label">Option 4</label>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="block">
+        <div class="blcok-header">
+          <p class="header-number">3</p>
+          <p class="header-text">Груз</p>
+        </div>
+        <div class="block-container">
+          <div class="block-form block-form_list">
+            <p class="input-name">Тип груза</p>
+            <form>
+              <div class="__select" data-state="">
+                <div class="__select__title" data-default="Option 0">Не выбран</div>
+                <div class="__select__content">
+                  <input id="singleSelect0" class="__select__input" type="radio" name="singleSelect" checked />
+                  <label for="singleSelect0" class="__select__label">Option 0</label>
+                  <input id="singleSelect1" class="__select__input" type="radio" name="singleSelect" />
+                  <label for="singleSelect1" class="__select__label">Option 1</label>
+                  <input id="singleSelect2" class="__select__input" type="radio" name="singleSelect" disabled />
+                  <label for="singleSelect2" class="__select__label">Option 2 (disabled)</label>
+                  <input id="singleSelect3" class="__select__input" type="radio" name="singleSelect" />
+                  <label for="singleSelect3" class="__select__label">Option 3</label>
+                  <input id="singleSelect4" class="__select__input" type="radio" name="singleSelect" />
+                  <label for="singleSelect4" class="__select__label">Option 4</label>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="block-form-column">
+            <div class="block-form block-form_list">
+              <p class="input-name">Класс опасности</p>
+              <form>
+                <div class="__select" data-state="">
+                  <div class="__select__title" data-default="Option 0">
+                    <p class="__select__text">Класс 5 — Окисляющие вещества и органические перекиси</p>
+                  </div>
+                  <div class="__select__content">
+                    <input id="singleSelect0" class="__select__input" type="radio" name="singleSelect" checked />
+                    <label for="singleSelect0" class="__select__label">Option 0</label>
+                    <input id="singleSelect1" class="__select__input" type="radio" name="singleSelect" />
+                    <label for="singleSelect1" class="__select__label">Option 1</label>
+                    <input id="singleSelect2" class="__select__input" type="radio" name="singleSelect" disabled />
+                    <label for="singleSelect2" class="__select__label">Option 2 (disabled)</label>
+                    <input id="singleSelect3" class="__select__input" type="radio" name="singleSelect" />
+                    <label for="singleSelect3" class="__select__label">Option 3</label>
+                    <input id="singleSelect4" class="__select__input" type="radio" name="singleSelect" />
+                    <label for="singleSelect4" class="__select__label">Option 4</label>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="block-form block-form_size">
+          <p class="input-name">Объявленная ценность, &#8381;</p>
+          <form>
+            <div class="__select" data-state="">
+              <div class="__select__title" data-default="Option 0">&ge; 1
+              </div>
+              <div class="__select__content">
+                <input id="singleSelect0" class="__select__input" type="radio" name="singleSelect" checked />
+                <label for="singleSelect0" class="__select__label">Option 0</label>
+                <input id="singleSelect1" class="__select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect1" class="__select__label">Option 1</label>
+                <input id="singleSelect2" class="__select__input" type="radio" name="singleSelect" disabled />
+                <label for="singleSelect2" class="__select__label">Option 2 (disabled)</label>
+                <input id="singleSelect3" class="__select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect3" class="__select__label">Option 3</label>
+                <input id="singleSelect4" class="__select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect4" class="__select__label">Option 4</label>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="block-form block-form_row">
+          <input
+            type="radio"
+            class="block-button"
+            value="agree"
+            id="agreement"
+            name="agreement"
+          />
+          <label for="agreement"></label>
+          <p class="input-name input-name_margin-bottom">
+            Требуется температурный режим
+          </p>
+        </div>
+      </div>
+      <div class="block">
+        <div class="blcok-header">
+          <p class="header-number">4</p>
+          <p class="header-text">Время</p>
+        </div>
+        <div class="adress-container">
+          <div class="header-container">
+            <p class="input-name">Когда прибыть на точку</p>
+            <p class="input-name input-name_color">700 км в день</p>
+          </div>
+          <div class="choose-container">
+            <div class="button-container">
+              <button class="adress-button_active"></button>
+              <p class="adress-text">Адрес не указан</p>
+            </div>
+            <p class="choose-text">НЕ ВЫБРАНО</p>
+          </div>
+          <div class="choose-container">
+            <div class="button-container">
+              <button class="adress-button"></button>
+              <p class="adress-text adress-text-second">Адрес не указан</p>
+            </div>
+            <p class="choose-text adress-text_opacity">НЕ ВЫБРАНО</p>
+          </div>
+        </div>
+        <div class="adress-container">
+          <p class="input-name">Комментарий к заказу</p>
+          <textarea
+            class="input-comment"
+            placeholder="Укажите особенности въезда на территорию склада или подъезда к адресу"
+          ></textarea>
+        </div>
+      </div>
+    </div>
+    <div class="tip">
+      <p class="tip-text">
+        Для расчета стоимости необходимо ввести параметры груза, пункты отправки
+        и прибытия.
+      </div>
+    </div>
+  </div>
+  </div>
+  </body>
+  <script src="./select.js"></script>
+</html>

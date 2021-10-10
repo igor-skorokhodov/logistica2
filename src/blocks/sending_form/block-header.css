@@ -1,0 +1,6 @@
+.blcok-header {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 18px;
+  align-items: center;
+}

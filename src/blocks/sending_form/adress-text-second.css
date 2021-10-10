@@ -1,0 +1,11 @@
+.adress-text-second::after {
+  content: "";
+  text-align: right;
+  position: absolute;
+  bottom: -87px;
+  right: 204px;
+  width: 50px;
+  height: 1.2em;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #4B4B4F 100%);
+  pointer-events: none;
+}
